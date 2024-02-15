@@ -1,0 +1,19 @@
+Task 8 
+
+let username 
+let password
+
+let tempUsername
+let tempPassword
+
+if (username == password ){
+  alert("Hello")
+}else if (tempUsername == username && tempPassword !== password){
+  alert("Password incorrect") 
+}else if ( tempUsername !== username) {
+  alert("User incorrect")
+} 
+}else { // тут можно сравнить с undefined если ничего не введено, но проще написать else
+  alert("Validation error")
+}
+

@@ -1,0 +1,11 @@
+Task 7 
+
+if (age >= 14 && age <= 90){
+  	
+  }
+
+With ! operator 
+
+if !(age <= 14 && age >= 90){
+  	
+  }

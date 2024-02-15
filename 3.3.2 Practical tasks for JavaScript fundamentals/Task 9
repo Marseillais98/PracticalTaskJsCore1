@@ -1,0 +1,16 @@
+Task 9
+
+<script>
+  let name = prompt("Please enter name");
+  
+  alert(`Hello ${name}`);
+  
+  let jsAsk = confirm("You like Js ?")
+  
+  if (jsAsk) {
+  alert(`Good ${name}`);
+} else {
+  alert(`${name} you can start now`);
+}
+  
+</script>

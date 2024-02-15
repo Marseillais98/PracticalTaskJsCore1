@@ -1,0 +1,6 @@
+Task 4 
+
+function ucFirst(str) {
+  str.text.split(" ");
+  return str[0].toUpperCase() + str.slice(1);
+}

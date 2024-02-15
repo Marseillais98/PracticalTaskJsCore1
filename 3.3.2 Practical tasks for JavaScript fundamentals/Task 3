@@ -1,0 +1,7 @@
+Task 3 
+
+<script>
+// In one line 
+let max;
+let rez = ( a > b )? max = a : ( c > max ) ? max = c;  
+</script>

@@ -1,0 +1,17 @@
+Task 2
+
+<script>
+  let a = +prompt("Please enter digit", 0);
+  let b = +prompt("Please enter digit", 0);
+  
+  let sum;
+  
+  for (let i = a; i <= b; i++){
+  	if(i % 2 == 0){
+    	sum++;
+    }
+  }
+  console.log(sum);
+
+
+</script>

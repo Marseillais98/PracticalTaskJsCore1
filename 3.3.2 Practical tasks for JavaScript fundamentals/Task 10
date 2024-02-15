@@ -1,0 +1,9 @@
+Task 10 
+
+const deviders = (number) => {
+  for (let i = 1; i <= n; i++) {
+    if (n % i == 0) {
+        alert(`Deviders is ${i}`);
+    	}
+	}
+}
