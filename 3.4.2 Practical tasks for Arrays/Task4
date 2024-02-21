@@ -1,0 +1,16 @@
+function sumInputNumbers() {
+    let arr = [];
+    while (true) {
+      let num = prompt("введите число")
+      if (num == "" || num == null) break;
+      arr.push(+num);
+    }
+  
+    let sum = 0;
+    for (let num of arr) {
+      sum += num;
+    }
+    return sum;
+  }
+  
+alert( sumInputNumbers() );
