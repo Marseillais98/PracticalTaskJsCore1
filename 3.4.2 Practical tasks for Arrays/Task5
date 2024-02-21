@@ -1,1 +1,17 @@
+function convert(fn,arr){
+    let array = [];
+    for(let i = 0; i < arr.length; i++){
+        array.push(fn(arr[i]));
+    }
+    return array;
+}
 
+
+function square(x) { return x * x; } // возведение в квадрат
+console.log(convert(square, [1, 2, 3, 4])); // [1, 4, 9, 16]
+console.log(convert(square, [])); // []
+
+
+let arr = [1, 2, 3];
+console.log(convert(square, arr)); // [1, 4, 9]
+console.log(arr); // [1, 2, 3]
