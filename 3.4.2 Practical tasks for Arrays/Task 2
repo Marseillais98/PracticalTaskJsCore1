@@ -1,0 +1,43 @@
+function mi5(arr){
+for (i = 0; i < arr.length; i++) {
+      if (arr[i] < 5){
+          console.log(arr[i])
+      };
+  }
+}
+
+mi5(arr)
+-------------------------
+function min_max(arr){
+    let min = arr[0];
+    let max = min;
+  for (i = 0; i < arr.length; i++) {
+      if (arr[i] > max) max = arr[i];
+      if (arr[i] < min) min = arr[i];
+  }
+    return console.log(min, max)
+}
+
+min_max(arr)
+---------------------
+arr.sort((a, b) => a - b);
+console.log(arr);
+---------------------
+function average(arr){
+        let sum = 0;
+        for (i = 0; i < arr.length; i++){
+            sum += arr[i]
+        }
+            rezult = sum / arr.length
+        return rezult
+    }
+function bigAverage(arr){
+    let averag = average(arr);
+  for (i = 0; i < arr.length; i++) {
+      if (arr[i] > averag){
+          console.log(arr[i])
+      }
+  }
+}
+
+bigAverage(arr)
