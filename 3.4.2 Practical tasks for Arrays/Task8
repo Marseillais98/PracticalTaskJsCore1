@@ -1,0 +1,12 @@
+
+let arr = ["red", "green", "blue"]
+
+function checkColor(color){
+    for(let i = 0; i < arr.length; i++){
+        if(color == arr[i]){
+            return i
+        }else return -1
+    }
+}
+
+console.log(checkColor("red"))
