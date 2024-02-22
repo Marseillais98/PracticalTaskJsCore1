@@ -1,0 +1,16 @@
+
+let user = {
+	name: `User 1`,
+	age: 123
+}
+let user2 = {}
+
+for (let key in user) {
+  user2[key] = user[key];
+}
+
+user2.name = `User 2`
+user2.age = 321
+
+console.log(user2)
+console.log(user)
