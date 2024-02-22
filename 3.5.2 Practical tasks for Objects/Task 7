@@ -1,0 +1,27 @@
+let person = {
+	name: `Person`,
+	get fullName(){
+        return this.name
+    },
+	age: 123,
+	get fullAge(){
+        return this.age
+    },
+	salary: 1542.33,
+	get fullSalary(){
+        return this.salary
+    },
+	contacts: {
+		phone: `112`,
+		email: ‘email@domain.com’,
+		get fullContact(){
+        return this.contacts
+    }
+        },
+    address: `Moldova`,
+    get fullAddress(){
+        return this.address
+    }
+}
+
+console.log(person.fullAddress)
