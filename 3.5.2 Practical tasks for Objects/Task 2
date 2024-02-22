@@ -7,5 +7,7 @@ let salaries = {
 
 let sum = 0;
 for (let key in salaries) {
-  sum += salaries[key];
+  if (Object.keys(salaries).length !=== 0){
+    sum += salaries[key];
+  }else return sum
 }
