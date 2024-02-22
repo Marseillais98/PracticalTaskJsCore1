@@ -1,0 +1,15 @@
+const weekDays = {
+	"Mo": "Luni",
+	"Tu": "Marti",
+	"We": "Miercuri",
+	"Th": "Joi",
+	"Fr": "Vineri",
+	"Sa": "Simbata",
+	"Su": "Duminica"
+}
+function swap(obj){
+    return Object.fromEntries(Object.entries(obj).map((val) => val.reverse()));
+}
+
+
+console.log(swap(weekDays))
